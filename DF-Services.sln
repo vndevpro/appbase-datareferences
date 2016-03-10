@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReferences.Services", "GdNet.DataReferences.Services\DataReferences.Services.csproj", "{BB36F639-B15E-4D67-9EDA-793B997A0F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.GdNet.DataReferences.Services", "NuGet.GdNet.DataReferences.Services\NuGet.GdNet.DataReferences.Services.csproj", "{51DB468E-E23A-4B8C-B28C-AAB67B8CDA2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReferences.Services.Impl", "GdNet.DataReferences.Services.Impl\DataReferences.Services.Impl.csproj", "{228ED90C-0F34-4935-BFF9-FE8AB5485E64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB36F639-B15E-4D67-9EDA-793B997A0F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB36F639-B15E-4D67-9EDA-793B997A0F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB36F639-B15E-4D67-9EDA-793B997A0F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB36F639-B15E-4D67-9EDA-793B997A0F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51DB468E-E23A-4B8C-B28C-AAB67B8CDA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DB468E-E23A-4B8C-B28C-AAB67B8CDA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DB468E-E23A-4B8C-B28C-AAB67B8CDA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DB468E-E23A-4B8C-B28C-AAB67B8CDA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228ED90C-0F34-4935-BFF9-FE8AB5485E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228ED90C-0F34-4935-BFF9-FE8AB5485E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228ED90C-0F34-4935-BFF9-FE8AB5485E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228ED90C-0F34-4935-BFF9-FE8AB5485E64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

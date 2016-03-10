@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GdNet.DataReferences.Services</name>
+    </assembly>
+    <members>
+        <member name="T:GdNet.DataReferences.Services.IReferenceItemService">
+            <summary>
+            Service on ReferenceItem
+            </summary>
+        </member>
+        <member name="M:GdNet.DataReferences.Services.IReferenceItemService.GetByCode(System.Object)">
+            <summary>
+            Get a ReferenceItem by its code
+            </summary>
+        </member>
+        <member name="T:GdNet.DataReferences.Services.IReferenceListService">
+            <summary>
+            Service on ReferenceList
+            </summary>
+        </member>
+        <member name="M:GdNet.DataReferences.Services.IReferenceListService.GetByCode(System.Object)">
+            <summary>
+            Get a ReferenceList by its code
+            </summary>
+        </member>
+        <member name="P:GdNet.DataReferences.Services.Dtos.ReferenceListDto.Manageable">
+            <summary>
+            True if item(s) of the list can be manageable from GUI
+            </summary>
+        </member>
+    </members>
+</doc>

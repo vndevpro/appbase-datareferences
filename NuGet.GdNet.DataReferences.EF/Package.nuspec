@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GdNet.DataReferences.EF</id>
+    <version>1.2.0</version>
+    <title>GdNet.DataReferences.EF</title>
+    <authors>RabbitSoftware</authors>
+    <owners>junioho</owners>
+    <description>
+      DataReference for EF
+    </description>
+    <releaseNotes>
+      Version 1.2.0
+      - Upgrade dependencies
+      Version 1.1.0
+      - Use an interface for the data context which improve IOC registration
+      Version 1.0.1
+      - Add initial migration
+    </releaseNotes>
+    <summary>
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/GdNet.DataReferences.EF</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright @ RabbitSoftware 2016</copyright>
+    <dependencies>
+        <group targetFramework="net45">
+          <dependency id="GdNet.Data.EF" version="1.6.1" />
+          <dependency id="GdNet.DataReferences.Domain" version="1.0.2" />
+        </group>
+    </dependencies>
+    <references></references>
+    <tags>RabbitSoftware</tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
