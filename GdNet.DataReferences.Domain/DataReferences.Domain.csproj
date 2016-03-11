@@ -47,7 +47,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="GdNet.Domain, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GdNet.Domain.1.5.0\lib\GdNet.Domain.dll</HintPath>
+      <HintPath>..\packages\GdNet.Domain.2.0.1\lib\GdNet.Domain.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rabbit.Foundation, Version=1.0.0.28392, Culture=neutral, processorArchitecture=MSIL">
