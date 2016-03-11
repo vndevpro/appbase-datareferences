@@ -20,3 +20,5 @@
 /*.suo
 /NuGet.GdNet.DataReferences.Domain/*.bak
 /NuGet.GdNet.DataReferences.Domain/*.nupkg
+*.nupkg
+*.log

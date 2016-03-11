@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.DataReferences.EF</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <title>GdNet.DataReferences.EF</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -20,15 +20,15 @@
     <summary>
     </summary>
     <language>en-US</language>
-    <projectUrl>https://nuget.org/packages/GdNet.DataReferences.EF</projectUrl>
+    <projectUrl>https://github.com/vndevpro/appbase-datareferences</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <copyright>Copyright @ RabbitSoftware 2016</copyright>
     <dependencies>
         <group targetFramework="net45">
-          <dependency id="GdNet.Data.EF" version="1.6.1" />
-          <dependency id="GdNet.DataReferences.Domain" version="1.0.2" />
+          <dependency id="GdNet.Data.EF" version="2.0.0" />
+          <dependency id="GdNet.DataReferences.Domain" version="1.1.0" />
         </group>
     </dependencies>
     <references></references>

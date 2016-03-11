@@ -41,14 +41,17 @@
     <Reference Include="GdNet.Common">
       <HintPath>..\packages\GdNet.Common.1.6.0\lib\GdNet.Common.dll</HintPath>
     </Reference>
-    <Reference Include="GdNet.Data.EF">
-      <HintPath>..\packages\GdNet.Data.EF.1.6.1\lib\GdNet.Data.EF.dll</HintPath>
+    <Reference Include="GdNet.Data.EF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.Data.EF.2.0.0\lib\GdNet.Data.EF.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="GdNet.DataReferences.Domain">
-      <HintPath>..\packages\GdNet.DataReferences.Domain.1.0.2\lib\GdNet.DataReferences.Domain.dll</HintPath>
+    <Reference Include="GdNet.DataReferences.Domain, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.DataReferences.Domain.1.1.0\lib\GdNet.DataReferences.Domain.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="GdNet.Domain">
-      <HintPath>..\packages\GdNet.Domain.1.5.0\lib\GdNet.Domain.dll</HintPath>
+    <Reference Include="GdNet.Domain, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.Domain.2.0.1\lib\GdNet.Domain.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Rabbit.Foundation">
       <HintPath>..\packages\Rabbit.Foundation.1.8.1\lib\Rabbit.Foundation.dll</HintPath>
