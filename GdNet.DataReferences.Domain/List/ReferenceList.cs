@@ -1,7 +1,8 @@
-﻿using GdNet.Domain.Entity;
-using Rabbit.Foundation.List;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using GdNet.Domain.Entity;
+using Rabbit.Foundation.List;
 
 namespace GdNet.DataReferences.Domain.List
 {
@@ -28,9 +29,17 @@ namespace GdNet.DataReferences.Domain.List
             get { return new ReferenceItemCollection(_items); }
         }
 
-        public ReferenceItem GetItemByCode(string code)
+        public ReferenceItem GetItemBy(string itemCode)
         {
-            return Items.FirstOrDefault(x => x.Code == code);
+            Func<ReferenceItem, bool> predicate = x => string.Equals(x.Code, itemCode, StringComparison.InvariantCultureIgnoreCase);
+
+            if (Items.Any(predicate))
+            {
+                return Items.First(predicate);
+            }
+
+            // TODO: use a domain exception
+            throw new ArgumentException(string.Format("No item with code {0} in this list", itemCode));
         }
     }
 }
