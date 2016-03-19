@@ -22,3 +22,6 @@
 /NuGet.GdNet.DataReferences.Domain/*.nupkg
 *.nupkg
 *.log
+/*.user
+/DataReferences.EFTesting/bin
+/DataReferences.EFTesting/obj

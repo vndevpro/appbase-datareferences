@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReferences.EF", "GdNet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.GdNet.DataReferences.EF", "NuGet.GdNet.DataReferences.EF\NuGet.GdNet.DataReferences.EF.csproj", "{71739B24-E174-44A9-A11C-41C19572661C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReferences.EFTesting", "DataReferences.EFTesting\DataReferences.EFTesting.csproj", "{D8435A16-64F9-4521-A809-D72DBF07331D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{71739B24-E174-44A9-A11C-41C19572661C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71739B24-E174-44A9-A11C-41C19572661C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71739B24-E174-44A9-A11C-41C19572661C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8435A16-64F9-4521-A809-D72DBF07331D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8435A16-64F9-4521-A809-D72DBF07331D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8435A16-64F9-4521-A809-D72DBF07331D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8435A16-64F9-4521-A809-D72DBF07331D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

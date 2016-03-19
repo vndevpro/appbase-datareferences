@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.DataReferences.EF</id>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <title>GdNet.DataReferences.EF</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -10,6 +10,9 @@
       DataReference for EF
     </description>
     <releaseNotes>
+      Version 1.2.2
+      - Renamed context to DataReferencesDbContext
+      - Configuration is not sealed so that it can be override on the Seed method
       Version 1.2.0
       - Upgrade dependencies
       Version 1.1.0
@@ -28,7 +31,7 @@
     <dependencies>
         <group targetFramework="net45">
           <dependency id="GdNet.Data.EF" version="2.0.0" />
-          <dependency id="GdNet.DataReferences.Domain" version="1.1.0" />
+          <dependency id="GdNet.DataReferences.Domain" version="1.1.1" />
         </group>
     </dependencies>
     <references></references>
