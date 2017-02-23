@@ -61,6 +61,7 @@
     <Compile Include="IReferenceListService.cs" />
     <Compile Include="Dtos\ReferenceItemDto.cs" />
     <Compile Include="Dtos\ReferenceListDto.cs" />
+    <Compile Include="MoveItemParamEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

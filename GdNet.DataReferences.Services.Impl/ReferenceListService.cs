@@ -1,3 +1,4 @@
+using GdNet.Common;
 using GdNet.DataReferences.Domain;
 using GdNet.DataReferences.Domain.List;
 using GdNet.DataReferences.Services.Dtos;
@@ -19,6 +20,19 @@ namespace GdNet.DataReferences.Services.Impl
         public ReferenceListDto GetByCode(object value)
         {
             return MapperProvider.Map(_repository.GetByCode(value), new ReferenceListDto());
+        }
+        
+        public void MoveItem(MoveItemParamEventArgs args)
+        {
+            var referenceList = _repository.GetById(args.ReferenceListId);
+            if (args.Direction == Direction.Up)
+            {
+                referenceList.MoveItemUp(args.ReferenceItemId);
+            }
+            else
+            {
+                referenceList.MoveItemDown(args.ReferenceItemId);
+            }
         }
     }
 }

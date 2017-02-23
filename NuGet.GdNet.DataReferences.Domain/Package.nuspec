@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.DataReferences.Domain</id>
-    <version>1.1.1</version>
+    <version>1.2.0</version>
     <title>GdNet.DataReferences.Domain</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -10,6 +10,9 @@
       DataReference domain.
     </description>
     <releaseNotes>
+      Version 1.2.0
+      - New method on RefList
+      - Upgrade dependencies
       Version 1.1.0
       - Upgrade dependencies
     </releaseNotes>
@@ -20,12 +23,11 @@
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright @ RabbitSoftware 2015-2016</copyright>
+    <copyright>Copyright @ RabbitSoftware 2015-2017</copyright>
     <dependencies>
       <group targetFramework="net45">
-        <dependency id="Rabbit.Foundation" version="1.8.1" />
-        <dependency id="GdNet.Domain" version="2.0.1" />
-        <dependency id="GdNet.Common" version="1.7.0" />
+        <dependency id="Rabbit.Foundation" version="1.12.0" />
+        <dependency id="GdNet.Domain" version="2.0.4" />
       </group>
     </dependencies>
     <references></references>
