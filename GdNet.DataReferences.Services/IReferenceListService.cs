@@ -1,6 +1,7 @@
 ﻿using GdNet.DataReferences.Services.Args;
 using GdNet.DataReferences.Services.Dtos;
 using GdNet.Layers.Services;
+using System;
 
 namespace GdNet.DataReferences.Services
 {
@@ -19,5 +20,9 @@ namespace GdNet.DataReferences.Services
         /// </summary>
         /// <param name="args"></param>
         void MoveItem(MoveItemParamEventArgs args);
+
+        void AddItems(Guid referenceListId, params ReferenceItemDto[] items);
+
+        void UpdateItem(Guid referenceListId, ReferenceItemDto item);
     }
 }
