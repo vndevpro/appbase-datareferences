@@ -1,7 +1,7 @@
 ﻿using System;
 using GdNet.Common;
 
-namespace GdNet.DataReferences.Services
+namespace GdNet.DataReferences.Services.Args
 {
     /// <summary>
     /// Move item in a list

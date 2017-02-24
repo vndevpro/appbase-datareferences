@@ -24,9 +24,43 @@
             Get a ReferenceList by its code
             </summary>
         </member>
+        <member name="M:GdNet.DataReferences.Services.IReferenceListService.MoveItem(GdNet.DataReferences.Services.Args.MoveItemParamEventArgs)">
+            <summary>
+            Change position of item in the list
+            </summary>
+            <param name="args"></param>
+        </member>
         <member name="P:GdNet.DataReferences.Services.Dtos.ReferenceListDto.Manageable">
             <summary>
             True if item(s) of the list can be manageable from GUI
+            </summary>
+        </member>
+        <member name="T:GdNet.DataReferences.Services.Args.MoveItemParamEventArgs">
+            <summary>
+            Move item in a list
+            </summary>
+        </member>
+        <member name="M:GdNet.DataReferences.Services.Args.MoveItemParamEventArgs.#ctor(System.Guid,System.Guid,GdNet.Common.Direction)">
+            <summary>
+            Initialize all info to do a move
+            </summary>
+            <param name="referenceListId"></param>
+            <param name="referenceItemId"></param>
+            <param name="direction"></param>
+        </member>
+        <member name="P:GdNet.DataReferences.Services.Args.MoveItemParamEventArgs.ReferenceListId">
+            <summary>
+            The RefList
+            </summary>
+        </member>
+        <member name="P:GdNet.DataReferences.Services.Args.MoveItemParamEventArgs.ReferenceItemId">
+            <summary>
+            The RefItem
+            </summary>
+        </member>
+        <member name="P:GdNet.DataReferences.Services.Args.MoveItemParamEventArgs.Direction">
+            <summary>
+            How to move
             </summary>
         </member>
     </members>
