@@ -41,7 +41,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="GdNet.DataReferences.Domain, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GdNet.DataReferences.Domain.1.2.0\lib\GdNet.DataReferences.Domain.dll</HintPath>
+      <HintPath>..\packages\GdNet.DataReferences.Domain.1.2.1\lib\GdNet.DataReferences.Domain.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GdNet.Domain">
@@ -68,8 +68,9 @@
       <HintPath>..\packages\Mapping.Common.1.0.0\lib\Mapping.Common.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Rabbit.Foundation">
-      <HintPath>..\packages\Rabbit.Foundation.1.8.1\lib\Rabbit.Foundation.dll</HintPath>
+    <Reference Include="Rabbit.Foundation, Version=1.0.0.32496, Culture=neutral, PublicKeyToken=d23bc9f0c654bb35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rabbit.Foundation.1.12.0\lib\Rabbit.Foundation.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
