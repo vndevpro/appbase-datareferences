@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace GdNet.DataReferences.Domain.List
 {
-    public class ReferenceList : EditableEntityBase, IAggregateRoot
+    public class ReferenceList : ReferenceItemBase, IAggregateRoot
     {
         private readonly List<ReferenceItem> _items;
 
@@ -14,10 +14,6 @@ namespace GdNet.DataReferences.Domain.List
         {
             _items = new List<ReferenceItem>();
         }
-
-        public string Code { get; set; }
-
-        public string Name { get; set; }
 
         /// <summary>
         /// True if item(s) of the list can be manageable from GUI

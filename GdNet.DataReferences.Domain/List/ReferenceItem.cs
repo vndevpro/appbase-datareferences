@@ -2,12 +2,8 @@
 
 namespace GdNet.DataReferences.Domain.List
 {
-    public class ReferenceItem : EditableEntityBase, IAggregateRoot
+    public class ReferenceItem : ReferenceItemBase, IAggregateRoot
     {
-        public string Code { get; set; }
-
-        public string Name { get; set; }
-
         public string Value { get; set; }
     }
 }

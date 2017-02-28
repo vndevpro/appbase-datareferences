@@ -36,6 +36,7 @@
     <Compile Include="IReferenceListRepository.cs" />
     <Compile Include="List\IReferenceItemCollectionValidator.cs" />
     <Compile Include="List\ReferenceItem.cs" />
+    <Compile Include="List\ReferenceItemBase.cs" />
     <Compile Include="List\ReferenceItemCollection.cs" />
     <Compile Include="List\ReferenceItemCollectionValidator.cs" />
     <Compile Include="List\ReferenceList.cs" />
