@@ -8,5 +8,7 @@ namespace GdNet.DataReferences.EF
         IDbSet<ReferenceList> Lists { get; set; }
 
         IDbSet<ReferenceItem> Items { get; set; }
+
+        int SaveChanges();
     }
 }
