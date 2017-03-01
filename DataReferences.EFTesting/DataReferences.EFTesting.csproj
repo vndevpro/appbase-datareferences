@@ -43,20 +43,29 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="GdNet.Common">
-      <HintPath>..\packages\GdNet.Common.1.1.0\lib\GdNet.Common.dll</HintPath>
+    <Reference Include="GdNet.Common, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.Common.1.8.0\lib\GdNet.Common.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="GdNet.Data.EF">
-      <HintPath>..\packages\GdNet.Data.EF.2.0.0\lib\GdNet.Data.EF.dll</HintPath>
+    <Reference Include="GdNet.Data.EF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.Data.EF.2.0.3\lib\GdNet.Data.EF.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="GdNet.DataReferences.Domain">
-      <HintPath>..\packages\GdNet.DataReferences.Domain.1.1.0\lib\GdNet.DataReferences.Domain.dll</HintPath>
+    <Reference Include="GdNet.DataReferences.Domain, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.DataReferences.Domain.1.3.0\lib\GdNet.DataReferences.Domain.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="GdNet.Domain">
-      <HintPath>..\packages\GdNet.Domain.2.0.1\lib\GdNet.Domain.dll</HintPath>
+    <Reference Include="GdNet.DataReferences.EF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.DataReferences.EF.1.3.0\lib\GdNet.DataReferences.EF.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Rabbit.Foundation">
-      <HintPath>..\packages\Rabbit.Foundation.1.8.1\lib\Rabbit.Foundation.dll</HintPath>
+    <Reference Include="GdNet.Domain, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.Domain.2.0.4\lib\GdNet.Domain.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rabbit.Foundation, Version=1.0.0.32496, Culture=neutral, PublicKeyToken=d23bc9f0c654bb35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rabbit.Foundation.1.12.0\lib\Rabbit.Foundation.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -80,13 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\GdNet.DataReferences.EF\DataReferences.EF.csproj">
-      <Project>{8ed4e8b2-d83d-46be-9aa2-c26f25ef9eba}</Project>
-      <Name>DataReferences.EF</Name>
-    </ProjectReference>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
