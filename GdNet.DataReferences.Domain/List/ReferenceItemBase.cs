@@ -7,5 +7,7 @@ namespace GdNet.DataReferences.Domain.List
         public string Code { get; set; }
 
         public string Name { get; set; }
+
+        public int Position { get; set; }
     }
 }

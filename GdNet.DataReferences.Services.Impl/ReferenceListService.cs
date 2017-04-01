@@ -6,6 +6,7 @@ using GdNet.DataReferences.Services.Dtos;
 using GdNet.Layers.Services;
 using Mapping.Common.Contracts;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace GdNet.DataReferences.Services.Impl
@@ -23,6 +24,14 @@ namespace GdNet.DataReferences.Services.Impl
         public ReferenceListDto GetByCode(object value)
         {
             return MapperProvider.Map(_repository.GetByCode(value), new ReferenceListDto());
+        }
+
+        public IEnumerable<ReferenceListDto> GetByCodes(params string[] codes)
+        {
+            foreach (var referenceList in _repository.GetByCodes(codes))
+            {
+                yield return MapperProvider.Map(referenceList, new ReferenceListDto());
+            }
         }
 
         public void MoveItem(MoveItemParamEventArgs args)
@@ -59,5 +68,6 @@ namespace GdNet.DataReferences.Services.Impl
             var referenceItem = referenceList.GetItemBy(item.Code);
             MapperProvider.Map(item, referenceItem);
         }
+
     }
 }

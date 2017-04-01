@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.DataReferences.Domain</id>
-    <version>1.4.0</version>
+    <version>1.4.1</version>
     <title>GdNet.DataReferences.Domain</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
