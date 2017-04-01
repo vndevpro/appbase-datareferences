@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.DataReferences.EF</id>
-    <version>1.2.2</version>
+    <version>1.2.3</version>
     <title>GdNet.DataReferences.EF</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -10,6 +10,8 @@
       DataReference for EF
     </description>
     <releaseNotes>
+      Version 1.2.3
+      - Set value for ContextKey
       Version 1.2.2
       - Renamed context to DataReferencesDbContext
       - Configuration is not sealed so that it can be override on the Seed method

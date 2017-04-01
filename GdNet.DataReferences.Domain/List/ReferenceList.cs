@@ -8,7 +8,7 @@ namespace GdNet.DataReferences.Domain.List
 {
     public class ReferenceList : EditableEntityBase, IAggregateRoot
     {
-        private readonly List<ReferenceItem> _items;
+        private readonly IList<ReferenceItem> _items;
 
         public ReferenceList()
         {
@@ -39,7 +39,7 @@ namespace GdNet.DataReferences.Domain.List
             }
 
             // TODO: use a domain exception
-            throw new ArgumentException(string.Format("No item with code {0} in this list", itemCode));
+            throw new ArgumentException(string.Format("No item with code = {0} in this list", itemCode));
         }
     }
 }
