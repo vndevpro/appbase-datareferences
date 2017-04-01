@@ -1,4 +1,5 @@
-﻿using GdNet.Data.EF;
+﻿using System.Collections.Generic;
+using GdNet.Data.EF;
 using GdNet.Data.EF.Strategies;
 using GdNet.DataReferences.Domain;
 using GdNet.DataReferences.Domain.List;
@@ -22,6 +23,11 @@ namespace GdNet.DataReferences.EF
         public ReferenceItem GetByCode(object value)
         {
             return Entities.FirstOrDefault(x => x.Code == (string)value);
+        }
+
+        public IEnumerable<ReferenceItem> GetByCodes(params string[] codes)
+        {
+            return Entities.Where(x => codes.Contains(x.Code));
         }
     }
 }
