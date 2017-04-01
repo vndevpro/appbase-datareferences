@@ -25,3 +25,5 @@
 /*.user
 /DataReferences.EFTesting/bin
 /DataReferences.EFTesting/obj
+/GdNet.DataReferences.Services/DataReferences.Services.csproj.user
+*.user

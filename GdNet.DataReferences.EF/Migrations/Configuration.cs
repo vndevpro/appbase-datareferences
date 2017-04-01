@@ -6,7 +6,7 @@ namespace GdNet.DataReferences.EF.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
             AutomaticMigrationDataLossAllowed = true;
             ContextKey = typeof(DataReferencesDbContext).Name;
         }

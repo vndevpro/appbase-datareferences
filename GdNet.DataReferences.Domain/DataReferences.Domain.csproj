@@ -44,15 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="GdNet.Common, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\GdNet.Common.1.7.0\lib\GdNet.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="GdNet.Domain, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GdNet.Domain.2.0.1\lib\GdNet.Domain.dll</HintPath>
+      <HintPath>..\packages\GdNet.Common.1.8.0\lib\GdNet.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Rabbit.Foundation, Version=1.0.0.28392, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Rabbit.Foundation.1.8.1\lib\Rabbit.Foundation.dll</HintPath>
+    <Reference Include="GdNet.Domain, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.Domain.2.0.4\lib\GdNet.Domain.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rabbit.Foundation, Version=1.0.0.32496, Culture=neutral, PublicKeyToken=d23bc9f0c654bb35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rabbit.Foundation.1.12.0\lib\Rabbit.Foundation.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

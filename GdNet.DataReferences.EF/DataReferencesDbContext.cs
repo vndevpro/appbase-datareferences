@@ -1,6 +1,6 @@
-﻿using System.Configuration;
+﻿using GdNet.DataReferences.Domain.List;
+using System.Configuration;
 using System.Data.Entity;
-using GdNet.DataReferences.Domain.List;
 
 namespace GdNet.DataReferences.EF
 {

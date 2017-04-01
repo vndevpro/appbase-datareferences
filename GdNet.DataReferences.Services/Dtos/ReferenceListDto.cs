@@ -1,18 +1,13 @@
-﻿using GdNet.Layers.Dtos;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace GdNet.DataReferences.Services.Dtos
 {
-    public class ReferenceListDto : EditableEntityDto
+    public class ReferenceListDto : ReferenceItemBaseDto
     {
         public ReferenceListDto()
         {
             Items = new List<ReferenceItemDto>();
         }
-
-        public string Code { get; set; }
-
-        public string Name { get; set; }
 
         /// <summary>
         /// True if item(s) of the list can be manageable from GUI
