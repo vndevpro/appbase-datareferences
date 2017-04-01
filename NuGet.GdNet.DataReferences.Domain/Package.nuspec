@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.DataReferences.Domain</id>
-    <version>1.3.1</version>
+    <version>1.4.0</version>
     <title>GdNet.DataReferences.Domain</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -10,6 +10,8 @@
       DataReference domain.
     </description>
     <releaseNotes>
+      Version 1.4.0
+      - Support getting multiple lists / items
       Version 1.3.0
       - Add Position
       Version 1.2.0
