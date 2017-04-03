@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.DataReferences.EF</id>
-    <version>1.3.1</version>
+    <version>1.4.0-RC1</version>
     <title>GdNet.DataReferences.EF</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -10,6 +10,8 @@
       DataReference for EF
     </description>
     <releaseNotes>
+      Version 1.2.3
+      - Set value for ContextKey
       Version 1.2.2
       - Renamed context to DataReferencesDbContext
       - Configuration is not sealed so that it can be override on the Seed method
@@ -31,7 +33,7 @@
     <dependencies>
         <group targetFramework="net45">
           <dependency id="GdNet.Data.EF" version="2.0.3" />
-          <dependency id="GdNet.DataReferences.Domain" version="1.3.0" />
+          <dependency id="GdNet.DataReferences.Domain" version="1.4.0" />
         </group>
     </dependencies>
     <references></references>
@@ -40,6 +42,6 @@
   <files>
     <file src="lib\" target="lib" />
     <file src="tools\" target="tools" />
-    <file src="content\" target="content" />
+    <!--<file src="content\" target="content" />-->
   </files>
 </package>

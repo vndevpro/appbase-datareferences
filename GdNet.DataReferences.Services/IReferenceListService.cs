@@ -2,6 +2,7 @@
 using GdNet.DataReferences.Services.Dtos;
 using GdNet.Layers.Services;
 using System;
+using System.Collections.Generic;
 
 namespace GdNet.DataReferences.Services
 {
@@ -15,6 +16,8 @@ namespace GdNet.DataReferences.Services
         /// </summary>
         ReferenceListDto GetByCode(object value);
 
+        IEnumerable<ReferenceListDto> GetByCodes(params string[] codes);
+
         /// <summary>
         /// Change position of item in the list
         /// </summary>
@@ -24,5 +27,6 @@ namespace GdNet.DataReferences.Services
         void AddItems(Guid referenceListId, params ReferenceItemDto[] items);
 
         void UpdateItem(Guid referenceListId, ReferenceItemDto item);
+
     }
 }

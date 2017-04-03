@@ -1,4 +1,4 @@
-using GdNet.Domain.Entity;
+﻿using GdNet.Domain.Entity;
 
 namespace GdNet.DataReferences.Domain.List
 {

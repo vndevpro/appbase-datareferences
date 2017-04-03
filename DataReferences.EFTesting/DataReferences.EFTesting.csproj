@@ -52,7 +52,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="GdNet.DataReferences.Domain, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GdNet.DataReferences.Domain.1.3.0\lib\GdNet.DataReferences.Domain.dll</HintPath>
+      <HintPath>..\packages\GdNet.DataReferences.Domain.1.4.0\lib\GdNet.DataReferences.Domain.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GdNet.DataReferences.EF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">

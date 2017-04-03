@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using GdNet.DataReferences.Domain;
 using GdNet.DataReferences.Domain.List;
 using GdNet.DataReferences.Services.Dtos;
@@ -19,6 +20,14 @@ namespace GdNet.DataReferences.Services.Impl
         public ReferenceItemDto GetByCode(object value)
         {
             return MapperProvider.Map(_repository.GetByCode(value), new ReferenceItemDto());
+        }
+
+        public IEnumerable<ReferenceItemDto> GetByCodes(params string[] codes)
+        {
+            foreach (var item in _repository.GetByCodes(codes))
+            {
+                yield return MapperProvider.Map(item, new ReferenceItemDto());
+            }
         }
     }
 }
