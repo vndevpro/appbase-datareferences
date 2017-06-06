@@ -1,9 +1,8 @@
-﻿using System;
-using System.Data.Entity;
-using System.Data.Entity.Migrations.Model;
-using System.Linq;
+﻿using System.Linq;
 using GdNet.DataReferences.EF;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Data.Entity;
 
 namespace DataReferences.EFTesting
 {
@@ -13,7 +12,7 @@ namespace DataReferences.EFTesting
         [TestMethod]
         public void CanLoadItemsOfAListLazily()
         {
-            Database.SetInitializer(new CreateDatabaseIfNotExists<>);
+            Database.SetInitializer(new CreateDatabaseIfNotExists<DataReferencesDbContext>());
 
 
             // Arrange
