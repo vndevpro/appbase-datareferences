@@ -51,12 +51,18 @@ namespace GdNet.DataReferences.Services.Impl
         {
             var referenceList = _repository.GetById(referenceListId);
             AddItems(referenceList, items);
+
             _repository.Save(referenceList);
         }
 
         private void AddItems(ReferenceList referenceList, params ReferenceItemDto[] items)
         {
-            foreach (var referenceItem in items.Select(referenceItemDto => MapperProvider.Map(referenceItemDto, new ReferenceItem())))
+            foreach (var referenceItem in items.Select(referenceItemDto =>
+            {
+                var item = MapperProvider.Map(referenceItemDto, new ReferenceItem());
+                item.Code = referenceItemDto.Code;
+                return item;
+            }))
             {
                 referenceList.AddItem(referenceItem);
             }
@@ -68,6 +74,5 @@ namespace GdNet.DataReferences.Services.Impl
             var referenceItem = referenceList.GetItemBy(item.Code);
             MapperProvider.Map(item, referenceItem);
         }
-
     }
 }
