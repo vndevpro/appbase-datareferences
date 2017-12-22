@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.DataReferences.EF</id>
-    <version>1.4.0</version>
+    <version>1.4.1</version>
     <title>GdNet.DataReferences.EF</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -32,8 +32,8 @@
     <copyright>Copyright @ RabbitSoftware 2016</copyright>
     <dependencies>
         <group targetFramework="net45">
-          <dependency id="GdNet.Data.EF" version="2.1.1" />
-          <dependency id="GdNet.DataReferences.Domain" version="1.4.0" />
+          <dependency id="GdNet.Data.EF" version="2.3.0" />
+          <dependency id="GdNet.DataReferences.Domain" version="1.4.2" />
         </group>
     </dependencies>
     <references></references>

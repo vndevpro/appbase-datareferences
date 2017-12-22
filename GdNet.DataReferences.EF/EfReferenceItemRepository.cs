@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
-using GdNet.Data.EF;
+﻿using GdNet.Data.EF;
 using GdNet.Data.EF.Strategies;
 using GdNet.DataReferences.Domain;
 using GdNet.DataReferences.Domain.List;
+using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 
@@ -15,8 +16,8 @@ namespace GdNet.DataReferences.EF
         {
         }
 
-        public EfReferenceItemRepository(IDbSet<ReferenceItem> entities, ISavingStrategy savingStrategy, IDeletionStrategy<ReferenceItem> deletionStrategy)
-            : base(entities, savingStrategy, deletionStrategy)
+        public EfReferenceItemRepository(IDbSet<ReferenceItem> entities, ISavingStrategy savingStrategy, IDeletionStrategy<ReferenceItem> deletionStrategy, IFilterStrategy<ReferenceItem, Guid> filterStrategy)
+            : base(entities, savingStrategy, deletionStrategy, filterStrategy)
         {
         }
 
