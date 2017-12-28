@@ -79,6 +79,10 @@
     <Compile Include="Migrations\201702281150523_UpgradeDomain.Designer.cs">
       <DependentUpon>201702281150523_UpgradeDomain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712280840351_UpgradeDomainBase.cs" />
+    <Compile Include="Migrations\201712280840351_UpgradeDomainBase.Designer.cs">
+      <DependentUpon>201712280840351_UpgradeDomainBase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -92,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702281150523_UpgradeDomain.resx">
       <DependentUpon>201702281150523_UpgradeDomain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712280840351_UpgradeDomainBase.resx">
+      <DependentUpon>201712280840351_UpgradeDomainBase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
