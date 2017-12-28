@@ -12,6 +12,7 @@ namespace GdNet.DataReferences.Services.Impl.Maps
 
             MappingExpression.ForMember(x => x.Code, a => a.Ignore());
             MappingExpression.ForMember(x => x.Position, a => a.Ignore());
+            MappingExpression.ForMember(x => x.Manageable, a => a.Ignore());
             MappingExpression.ForMember(x => x.Items, a => a.Ignore());
         }
     }
